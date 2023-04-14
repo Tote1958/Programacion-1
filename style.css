@@ -129,14 +129,19 @@ header .logo img{
     text-align: center;
 }
 
-#endpage {
+.endpage{
     background-image: url(imagenes/peakpx2.jpg);
     background-position: center center;
     background-size: cover;
     padding: 20%;
+}
+
+.endpage h2{
     color: white;
     text-align: center;
+    font-size: 3.5em;
 }
+
 
 
 footer{
