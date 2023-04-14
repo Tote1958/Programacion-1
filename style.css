@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    background-color: rgba(202, 202, 202, 0.815);
+}
+
+h1{font-size: 3.5em;}
+h2{font-size: 2em;}
+p{font-size: 1.25em;}
+
+button{
+    font-size: 2em;
+    font-weight: bold;
+    border-radius: 12px;
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 2px 2px 10px rgba(0, 27, 200, 0.568);
+    color: white;
+    background-color: rgb(0, 102, 255);
+}
+
+button:hover{
+    background-color: blue;
+}
+
+.conteiner{
+    max-width: 900px;
+    margin: auto;
+}
+
+header{
+    border-radius: 120px;
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(10px);
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 80px;
+    
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    font-size: 80%;
+}
+
+header nav{
+    margin: 2%;
+    justify-content: end;
+    display: flex;
+    
+}
+
+header a{
+    color: rgb(241, 250, 250);
+    font-size: 1.5em;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+header a:hover{
+    color: black;
+}
+
+header .logo{
+    margin: 1%;
+    display: flex;
+}
+
+header .logo img{
+    align-items: center;
+    height: 60px;
+}
+
+#title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 100vh;
+    color: white;
+    background-image: url(imagenes/peakpx0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;   
+}
+
+#sobre-nosotros{
+    text-align: center;
+    padding: 100px 12px;
+}
+
+#que-ofrecemos{
+    background-image: url(imagenes/peakpx.jpg);
+    background-position: center center;
+    background-size: cover;
+    padding: 20%;
+    color: white;
+    text-align: center;
+
+}
+
+#sobre-nosotros .conteiner{
+    display: flex;
+}
+
+#sobre-nosotros .texto{
+    padding-top: 20px;
+    padding-left: 20%;
+    padding: 20px;
+    text-align: initial;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#sobre-nosotros .img-conteiner{
+    background-image: url(imagenes/DodgeChallenger.jpg);
+    border-radius: 30px;
+    background-position: center center;
+    background-size: cover;
+    height: 700px;
+    width: 2000px;
+    color: white;
+    text-align: center;
+}
+
+#endpage {
+    background-image: url(imagenes/peakpx2.jpg);
+    background-position: center center;
+    background-size: cover;
+    padding: 20%;
+    color: white;
+    text-align: center;
+}
+
+
+footer{
+    margin-bottom: 0%;
+    text-align: right;
+    background-color: rgba(255, 235, 205, 0.527);
+}
