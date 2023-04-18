@@ -10,6 +10,17 @@ body{
 
 h1{font-size: 3.5em;}
 h2{font-size: 2em;}
+h3{font-size: 1,7em;}
+
+.endpage #address{
+    display: flex;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+
 p{font-size: 1.25em;}
 
 button{
